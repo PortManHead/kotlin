@@ -25,7 +25,7 @@ changeBuildType(RelativeId("Build")) {
                     content = """
                         Get-Date
                         echo ${'$'}env:computername
-                        echo "I just modified this build step"
+                        echo "I just modified this build step from the SCM"
                     """.trimIndent()
                 }
             }
