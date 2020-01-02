@@ -14,7 +14,7 @@ in the root project, and delete the patch script.
 */
 create(DslContext.projectId, BuildType({
     id("Build2")
-    name = "Build 2"
+    name = "Build 3"
 
     vcs {
         root(RelativeId("HttpsGithubComSpringProjectsSpringPetclinicRefsHeadsMaster"))
