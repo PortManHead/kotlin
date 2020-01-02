@@ -22,6 +22,7 @@ create(DslContext.projectId, BuildType({
 
     steps {
         maven {
+            enabled = false
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
         }
